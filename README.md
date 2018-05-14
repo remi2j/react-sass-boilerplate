@@ -11,8 +11,10 @@ Kickstart your projects with an advanced config :boom:
 
 ## Installation
 
-* Run `git clone https://github.com/remi2j/react-sass-boilerplate.git`
-* Tweak `webpack.config.js` and have fun
+* :one: Run `git clone https://github.com/remi2j/react-sass-boilerplate.git`
+* :two: `cd` into your newly created directory
+* :three: Run `npm install` to install dependencies
+* :four: Tweak `webpack.config.js` and have fun
 
 ## Upcoming features
 
