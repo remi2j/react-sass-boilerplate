@@ -1,0 +1,42 @@
+{
+  "name": "react-sass-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack config that implements React, Sass and more",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remi2j/react-sass-boilerplate.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "author": "Rémi de Juvigny",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "error-overlay-webpack-plugin": "^0.1.4",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
+    "react-hot-loader": "^4.1.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
